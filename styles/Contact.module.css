@@ -1,0 +1,106 @@
+.container_contact{
+    max-width: 55vw;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_left{
+    width: 50%;
+    padding: 0 2rem;
+}
+
+.container_left_heading{
+    color: #0070f3;
+}
+
+.container_left_para{
+    font-size: 15px;
+    word-spacing: 3px;
+    line-height: 25px;
+}
+
+.container_right{
+    width: 50%;  
+}
+
+.input_container{
+    margin-bottom: 10px;
+}
+
+.input_inner_container{
+    display: inline-block;
+    width: 50%;
+}
+
+.mylabel{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.myinput{
+    margin-top: 5px;
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+    border: 1px solid rgb(237, 237, 237);
+    border-radius: 5px;
+    padding: 20px 10px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.5s;
+}
+
+.myinput:hover{
+    background-color: rgb(225, 225, 225);
+}
+
+.myinput:focus{
+    border: 1px solid #0070f3;
+}
+
+.myspecialinputleft{
+    margin-right: 10px;
+}
+
+.myspecialinputright{
+    margin-left: 10px;
+}
+
+.btnsubmit{
+    background-color: #0070f3;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.btnsubmit:hover{
+    opacity: 1;
+}
+
+@media only screen and (max-width: 768px){
+    .container_contact{
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+    
+    .container_right{
+        width: 100%;  
+        margin-top: 20px;
+    }
+
+    .container_left{
+        width: 100%;  
+        padding: 0;
+    }
+}
